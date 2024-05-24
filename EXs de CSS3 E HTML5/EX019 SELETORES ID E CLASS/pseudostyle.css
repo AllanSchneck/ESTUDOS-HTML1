@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+body{
+    background-color: rgb(243, 250, 249);
+}
+#PRIMEIRO_TITULO{
+    font-family: "Spinnaker",sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 10px;
+    box-shadow: 1px 1px 7px black;
+    background-color: #ccc;
+    background-image: linear-gradient(to right, #ccc, #6a95ad);
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    border-radius: 7px;
+}
+.txt{
+
+    font-family: "Spinnaker",Helvetica, sans-serif;
+    height: 6em;
+    width: 11em;
+    text-align: justify;
+    padding: 12px;
+    box-shadow: 7px 7px 7px #ccc;
+}
+.Subtitulo{
+    font-family: "Spinnaker",Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 4px;
+    border: 20px;
+    box-shadow: 5px 5px 11px #a5c6ce;
+    width: 270px;
+    height: 35px;
+
+}
+.TITULO{
+    font-family: "Spinnaker",Helvetica, sans-serif;
+    box-shadow: 5px 5px 10.5px #548da3;
+    padding: 5px;
+    border-radius: 20px;
+    width: 420px;
+    text-align: center;
+    height: 37px;
+
+}
+
+a{
+    color: aqua;
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(209, 68, 68);
+}
+a:hover{
+    color: aquamarine;
+}
+.links{
+    color:  rgba(252, 252, 252, 0.555);
+    background-color: black;
+    text-decoration: none;
+
+}
+.links::before{
+    content: '>>';
+    font-weight: lighter;
+}
+.links::after{
+    content: '<<';
+    font-weight: lighter;
+}
+.divisoria > p{
+    font-family: "Spinnaker",Helvetica, sans-serif; 
+    display: none;
+}
+.divisoria:hover > p{/*Quando queremos pegar um elemento do conteiner colocamo > e selecionamos oq queremos puxar!*/
+    display: block;
+    background-color: red;
+}
+

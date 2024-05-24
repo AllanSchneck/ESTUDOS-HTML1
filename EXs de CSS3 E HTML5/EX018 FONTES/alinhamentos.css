@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+p{
+    font-size: 0.6em;
+    font-family: "Press Start 2P";
+    text-align: justify; /*usar text-alig para alinha o texto pelo CSS qualquer alinhamento sem ser pelo css ou js é obsoleto NUNCA ALINHE USANDO HTML*/
+    text-indent: 20px;/*para fazera margem do paragrafo*/
+}
+h1{
+    font-family: "Press Start 2P";
+    font-size: 0.89em;
+    font-style: normal;
+    text-align: center;
+}
+h2{
+    font-family: "Press Start 2P";
+    font-size: 0.89em;
+    text-align: right;
+}

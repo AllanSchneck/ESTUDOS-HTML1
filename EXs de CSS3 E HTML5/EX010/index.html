@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas em HTML</title>
+</head>
+<body>
+    <h1>Listas em <abbr title="HyperText Markup Language 5.2">HTML5</abbr></h1>
+    <h2>Listas usando <abbr title="Ordered List">OL</abbr></h2>
+    <p>listas usando <code>&lt;ol&gt;</code> exemplo: <ol type="b"><li>prmeiro item</li>
+    <li>secundo item</li></ol>
+    automáticamente marca a posição que esta cada item na lista por ordem digitada basta usar a TAG <code>&lt;li&gt;</code> <abbr title="List item">LI</abbr> para incluir o item dentro da TAG <code>&lt;ol&gt;</code></p>
+    <h2>Tipos de Listas</h2>
+    <p>Para uma lista personalizada e não sendo somente ordenada por númeração podemos usar os tipos como por exemplo: <pre><code>&lt;ol type="A"&gt; (para ordenar por letras Maiúsculas)
+&lt;ol type="a"&gt; (para ordenar por Minúsculas)
+&lt;ol type="I"&gt; (para ordenar por algorismo romano)
+&lt;ol type="i"&gt; (para ordenar por algorismo romano menor)
+        </code>
+    </pre>
+EX 1: <ol type="A"><li>Maça</li>
+    <li>Pera
+    <li>Manga
+    <li>Jabuticaba
+</ol>
+EX 2: <ol type="I">
+    <li>Beterraba
+    <li>Couve-Flor
+    <li>Brócolis
+    <li>Alface</ol>
+EX 3: <ol type="i">
+    <li>Água
+    <li>Coca
+    <li>Sprite
+    <li>Fanta
+    <li>Suco de Uva</ol>
+EX 4: <ol type="a"><li>Doritos
+    <li>Cheetos
+    <li>Fandangos
+    <li>Cebolitos
+</ol>
+EX 5:
+Inclusive podemos começar de onde nós quisermos a contagem basta usar a tag &lt;start = "COLOCAR AQUI 0 NÚMERO QUE VOCÊ DESEJA COMEÇAR A FAZER A CONTAGEM"&gt;
+    <ol type="I" start="5">
+        <li>pão
+        <li>café
+        <li>Leite</ol></p>
+    <h2>Listas não Ordenadas <abbr title="Unordered Lists"><code>&lt;ul&gt;</code></abbr></h2>
+    <p>Esse tipo de lista não precisa necesseriamente de uma classificação apenas listar os items<br>
+muito parecido com as primeiras listas , usamos a TAG &lt;ul&gt; para criarmos esse tipo de lista
+<pre><code>&lt;ul type="square"&gt; (para marcações quadradas)
+&lt;ul type="circle"&gt; (para marcações em circulo em branco)
+&lt;ul type="disc"&gt; (para marcações em circulo preto)
+</code></pre>
+EX 1: <ul type="square">
+    <li>moto
+    <li>carro
+    <li>barco
+    <li>avião</ul></p>
+EX 2: <ul type="circle">
+    <li>guitarra
+    <li>violão
+    <li>baixo</ul>
+EX 3: <ul type="disc">
+    <li>funk
+    <li>rock
+    <li>rap
+    <li>pop</ul>
+<h2>Listas misturadas</h2>
+<p>para listas misturadas basta juntar todo conhecimento que você já adquiriou e juntar em listas dentro de listas confira os exemplos:
+<ol type="1">
+    <li>Bandas
+        <ol type="a">
+            <li>Nirvana
+            <li>Deep Purple
+            <li>Guns N' Roses
+        <li>Beatles
+        <li>Queen
+        <li>ACDC
+        <li>System of a Down
+        <li>Black Sabbath
+        </ol></li>
+    <li>
+    Refrigerantes <ol type="A">
+        <li>Coca-Cola
+        <li>Sprite
+        <li>Pepsi
+        <li>Guarána
+        <li>Fanta</ol></ol>
+<ul>
+    <li>Linguagens que estou aprendendo
+        <ol type="A">
+            <code>
+            <li>python</li>
+            <li>Portugol</li>
+            <li>CSS</li>
+            <li>HTML</li>
+            </code>
+        </ol>
+    </li>
+    <li>Liguagens que eu quero aprender
+    <ol type="I">
+        <code>
+        <li>Java</li>
+        <li>JavaScript</li>
+        <li>Ruby</li>
+        <li>PHP</li>
+        <li>C#</li>
+        <li>MySQL</li>
+        </code>
+        </ol>
+    </li>
+</ul>
+<ul>Consoles que marcaram minha vida
+    <li>Xbox
+        <ol type="1">
+            <li>Forza Horizon 2</li>
+            <li>Fortnite</li>
+            <li>Smite</li>
+            <li>Bioshock Infinite</li>
+            <li>FarCry 4</li>
+            <li>We Happy Few</li>
+            <li>GTA V</li>
+            <li>Celeste</li>
+            <li>DayZ</li>
+            <li>Dying Light</li>
+            <li>MAFIA 2</li>
+            <li>Skate 3</li>
+        </ol>
+    </li>
+    <li>Playstation 2
+        <ol type="1">
+            <li>GTA SanAndreas</li>
+            <li>God of War</li>
+            <li>Bully</li>
+            <li>Steet fighter</li>
+            <li>Need for Speed</li>
+            <li>Jackass</li>
+            <li>Midnight Club 3</li>
+            <li>25 to life</li>
+            <li>Scarface</li>
+            <li>Call of Duty 3 e 2</li>
+            <li>Crash TwinSanity</li>
+            <li>Resident Evil 4</li>
+            <li>Tony Hawk Uderground e PROSKATER 1 e 2</li>
+        </ol>
+    </li>
+</ul>
+</p>
+<h2>Lista de Definições</h2>
+<dl>
+    <dt>HTML
+        <dd>Linguagem de marcação para criação de conteúdo de um site</dd>
+    </dt>
+    <dt>CSS
+        <dd>Liguagem de marcação para criação do design de um site</dd>
+    </dt>
+    <dt>JavaScript
+        <dd>Liguagem de programação para a criação de interatividade de um site</dd>
+    </dt>
+</dl>
+</body>
+</html>

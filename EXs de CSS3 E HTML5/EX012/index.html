@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MÍDIAS EM HYML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>tente abrir esse site em vário dispositivos diferentes aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png">
+        <img src="imagens/foto-g.png" alt="IMAGEM FLEXÍVEL">
+    </picture>
+    <h1>REPRODUÇÃO DE AUDIOS</h1>
+    <audio src="MIDIA/moow - Crank dat.mp3" controls></audio>
+    <audio  preload="metadata" controls>
+        <source src="MIDIA/kina - u're mine.mp3" type="audio/mpeg">
+    <source src="MIDIA/kina - u're mine.ogg" type="audio/ogg">
+    <source src="MIDIA/kina - u're mine.wav" type="audio/wav">
+    <p>Não foi possível carregar o audio clique aqui para fazer o download <a href="MIDIA/kina - u're mine.mp3">kina - u're mine.mp3</a></p></audio>
+   <p>infelizmente não foi possível carregar o seu audio clique <a href="MIDIA/kina - u're mine.mp3" target="_blank" download="MIDIA/kina - u're mine.mp3" type="midia/mpeg" >aqui</a> para escutar</p>
+    <h1>REPRODUÇÃO DE VÍDEOS</h1>
+    <p>inserindo vídeos hospedados localmente</p>
+    <p>este vídeo esta hospedado no meu próprio servidor</p>
+    <video src="video/pexels_videos_2583469 (2160p).mp4" type="application/mp4" width="500px" controls autoplay loop></video>
+    <video poster="capa do vídeo/limões.png" controls width="500" >
+        <source src="video/720P mp3.mp4" type="video/mp4">
+        <source src="video/720p webM.webm" type="video/webm">
+        <source src="video/720p webM.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos clique <a href="video/720P mp3.mp4" download="video/720P mp3.mp4" target="_blank" type="aplication/video">aqui</a> para fazer o download do arquivo a ser reproduzido
+        </p>
+    </video>
+    <h1>Hospedagem de vídeo</h1>
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/uotMp-YNYMc?si=ZYTulkfgqzMrQRVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      
+</p>
+     
+
+    
+</body>
+</html>

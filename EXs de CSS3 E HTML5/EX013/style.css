@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/*REGRA @charset "UTF-8"  caso haja problemas com acentuação */
+body{background-color: rgb(135, 96, 172);
+color: rgb(233, 130, 130);
+font-size: 14px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+h1{color: rgb(75, 78, 9);
+background-color: indigo;}
+a{color: rgb(195, 228, 9);
+text-decoration: none;}
+p{text-align: justify;}

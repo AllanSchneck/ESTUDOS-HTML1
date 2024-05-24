@@ -1,0 +1,19 @@
+@charset "UTF-8";
+body{font-size: large;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-image: linear-gradient(160deg, #87CEEB ,#ECE4B7);background-attachment: fixed;}
+h1{color: #222222; text-align: center; text-shadow: 1px 1px 5   0px rgb(255, 0, 0);}
+h2{color: #222222;}
+p{color: #000000; text-align: justify; margin: auto;}
+pre{background-image: 90deg, #31493C,#17B890 ; 
+    text-align: justify;}
+ul{font-size: xx-large;}
+a{color: #17B890 ;}
+pre{color: #000000;}
+main{background-color:#655bf7;
+    font-family: sans-serif;
+    font-size: small;
+    padding: 5px;
+    width: 700px;
+    margin: auto;
+    box-shadow: 7px 7px 14px #000000;
+    border-radius: 10px;}

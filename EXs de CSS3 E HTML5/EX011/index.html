@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>âncoras e hyperlinks</title>
+</head>
+<body>
+<h1>Vamos criar nossos primeiros links</h1>
+    <h2>primerio links com ancora usando a TAG &lt;a&gt;</h2>
+        <p> Explicão breve de como funcina o Google segundo <em>Matt Cutts funcionario do google</em><a href="https://www.youtube.com/watch?v=BNHR6IQJGZs"> Clique Aqui e Veja</a></p>
+    <h2>Ancoragem/<abbr title="Uniform Resource Locators ">URL</abbr> com idioma</h2>
+        <p>Escola de HTML e lista de TAGs obsoletas<a href="https://www.w3schools.com/" hreflang="en"> Clique Aqui e Veja </a>
+        </p>
+    <h2>Ancoragem teleguiada</h2>
+        <p>Bom podemos perceber que pelos métodos aplicados acima todos eles funcionam <br>Mas se acaso nós quisessemos um link que nosso usuário permaneça no site de origem para isso serve o atributo TARGET</p>
+        <p>Exemplo 1 usando o atributo <code>_blank</code></p>
+        <p>escute essa pedrada <a href="https://www.youtube.com/watch?v=54seQCMSom8&t=50s" target="_blank">Smells Like Teen Spirit</a></p>
+        <p>Exemplo 2 usando o atributo <code>_parent</code></p>
+        <p>Escute esse Hino <a href="https://www.youtube.com/watch?v=oA9b6753tr4&t=18s" target="_parent">Otherside</a></p>
+        <p>Exemplo 3 usando o atributo <code>_top</code></p>
+        <p>Escute essa Paulada <a href="https://www.youtube.com/watch?v=vnHm-u4IYuo" target="_top">Stay Away</a></p>
+        <p>Exemplo 4 usando o atributo <code>_self</code></p>
+        <p>Escute esse poema <a href="https://www.youtube.com/watch?v=_yw8FFYltDI" target="_parent">Original Rudeboy</a></p>
+    <h2>Links Externos com &copy;</h2>
+    <p>Para esse tipo de link usamos 4 atributos adicionais dependendo de cada situação</p>
+    <p><code>next &rightarrow;</code> Indica que o link é para a próxima parte do document atual</p>
+    <p><code>prev &rightarrow;</code> Indica que o link é para a parte anterior do documento atual</p>
+    <p><code>author &rightarrow;</code> Indica que é um link para o site do autor do artigo atual </p>
+    <p><code>external &rightarrow;</code> Indica que é um link para outro site que não faz parte do site atual</p>
+    <p><code>nofollow &RightArrow;</code> Indica que é um link para um site não endossado, como um link pago</p>
+    <p>Exemplos</p>
+    <p><a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/10%20-%20Liga%C3%A7%C3%B5es%20em%20toda%20parte.pdf"  target="_blank" rel="external">Abrir Perfil GitHub em nova Janela</a></p>
+    <h2>Para Fazer Downloads</h2>
+    <h3>Arquivo para download em HTML5 com links e âncoragem é super possível fazer download em materiais em PDF, ZIP <br>
+    A partir da versão HTML5, as âncora receberam atributos especiais para isso. Basta fazer em o link diretamente par<br>
+    o Arquivo que deseja efetuar o download e adicionar os atributos <code>download</code> e <code>type</code></h3>
+    <p>Exemplos de atributos <code>type</code> &dArr;</p>
+    <p><code>aplication/zip</code></a></p>
+    <p><code>text/html</code></p>
+    <p><code>text/css</code></p>
+    <p><code>text/javascript</code></p>
+    <p><code>video/mp4</code></p>
+    <p><code>video/H264</code></p>
+    <p><code>video/JPEG</code></p>
+    <p><code>audio/aac</code></p>
+    <p><code>audio/mpeg</code></p>
+    <p><code>font/ttf</code></p>
+    <p><code>image/jpeg</code></p>
+    <p><code>image/png</code></p>
+    <h2>LINKS INTERNOS</h2>
+    <p>links internos são links que fazem relação com outras páginas que estão dentro do servidor</p>
+    <p><a href="pag002.html" target="_self" rel="next">segunda página</a></p>
+    <p><a href="pag002.html" target="_blank" rel="external">segunda página saindo do site atual</a></p>
+    <p><a href="noticias/pag003.html" target="_self" rel="next">
+    a</a></p>
+    <h2>Downloads com links em site</h2>
+    <p><ul>
+    <li><a href="LIVRO/iNFO.pdf" download="LIVRO/iNFO.pdf" type=application/pdf >pdf</a></li>
+    <li>LISTA DE MÉDIAS TYPE NO SITE IANA.ORG <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="external">clique aqui</a></li>
+    <li>Download de arquivo zip <a href="LIVRO.zip" download="LIVRO.zip" type="aplication/zip">aqui</a></li>
+    <li></li>
+    <li></li>
+    </ul></p>
+</body> 
+</html>

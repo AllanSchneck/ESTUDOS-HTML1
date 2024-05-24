@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(160DEG ,rgb(75, 134, 138),rgb(255, 255, 255));
+font-family: 'VT323';
+color: rgb(46, 46, 46);
+text-align: justify;}
+main{
+    color: black;
+    background-color: rgb(242, 245, 104);
+    padding: 100px;
+    margin: auto;
+    width: 300px;
+    box-shadow: 7px 7PX 7PX;
+    border-radius: 12px;
+    display: grid;
+    text-align: justify;
+    font-family:"Press Start 2P";
+}
+a{
+    color: rgb(75, 38, 8);
+}
+

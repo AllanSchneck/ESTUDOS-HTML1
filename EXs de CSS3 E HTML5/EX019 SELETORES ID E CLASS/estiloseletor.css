@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+
+body{
+    background: none;
+    background-attachment: fixed;
+    background-image:linear-gradient(90deg,#fff,rgb(133, 133, 133));
+}
+#titulo_principal{
+    font-family: "Spinnaker",sans-serif;
+    background-color:rgb(255, 255, 255) ;
+    background-image: linear-gradient(to right,#7c4d8a,#6f61c0);
+    border-radius: 10px;
+    box-shadow: 7px 7px 5px #ccc;
+    padding: 10px;
+    text-align: center;
+    text-decoration:none ;
+    text-shadow: none;
+    height: 50px;
+    width: 600px;
+    color: #ccc;
+}/*Seletor com (#) representara ID sempre que*/
+.topico1{
+    font-family: "Spinnaker",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+.topico{    
+    text-align: left;
+    padding: 1px;
+    font-size: 1em;
+    font-family: "Spinnaker",sans-serif;
+    background-image: linear-gradient(to left,#2d2130,#716381);
+    height: 22px;
+    width: 130px;
+    border-radius: 7px ;
+    box-shadow: transparent;
+}
+.texto{
+    text-indent: 7px;
+    initial-letter: 10;
+    font-size: 0.89em;
+    font-family:"Spinnaker",sans-serif ;
+    width: 400px;
+}/*SELETOR DE CLASSE SEMPRE ESTARÁ REPRESENTADO COM U (.) NO ÍNICIO*/
+
+/*
+PSEUDO CLASSE
+
+Usando pseudo classe e pseudo elementos
+Uma pseudo classe CSS é uma palavra-chave adicionada ás declasrações de um seletor após um sinal de dois pontos e especificam um estado especial de um elemento. Existem várias |pseudo-classes| para estilos podemos citar : hover; visited; active; checked; empty; focus;
+
+PSEUDO ELEMENTOS
+
+Já um pseudo elemento CSS é uma palavra chave adicionada às declarações de um seletor após dois sinais de dois pontos e permitem que você formate um pedaço específico do elemento referenciado. Os principais |pseudo-elementos| são
+before;after; first-letter; first-line*/

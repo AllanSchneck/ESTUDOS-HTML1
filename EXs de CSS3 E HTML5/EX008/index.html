@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+    <style>
+        mark{background-color: limegreen;}
+    </style>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos um termo em <b>negrito</b> não semântico usando a TAG &lt;b&gt;<br>Nessa frase tenho um termo em <strong>destaque</strong> semântico com a TAG &lt;strong&gt;</p>
+    <h2>Itálico / Enfâse</h2>
+    <p>Nessa frase temos um termo em <i>itálico</i> não semântico com a tag &lt;i&gt;
+    <br>Nessa frase temos um termo em <em>enfâse</em> usuando a tag &lt;em&gt;</p>
+    <h2>Texto marcado</h2>
+    <p><mark style="background-color: rgb(128, 238, 2);">Podemos também criar um texto marcado usando a tag &lt;mark&gt;</mark></p>
+    <p><mark>E no outro parágrafo temos outro texto marcado</mark></p>
+    <p>Podemos notar que mesmo mudando a cor de um texto marcado, não significa que ele mudara de todos<br>Isso só é possível com um estilo em CSS com a finalidade disso ou mudar a cor de um por um </p>
+    <p>para isso criamos dentro de &lthead&gt; um &lt;style&gt; para mudarmos a cor de qualquer &lt;mark&gt;</p>
+    <h2>Texto Grande e Pequeno</h2>
+    <p>estamos criando um texto grande tag &lt;big&gt; não semantica, <small>e um pequeno neste parágrafo com a tag &lt;small&gt; semantica</small></p>
+    <h2>Texto Deletado</h2>
+    <p><del>podemos marcar um texto como excluído para <strong>indicar</strong>  que ele deve ser lido mas nao considerado tag &lt;del&gt;</del></p>
+    <h2>Texto Inserido</h2>
+    <p><ins>podemos marcar um texto como incluido para marcar uma <em>enfâse</em> que ele foi adicionado depois tag &lt;ins&gt;</ins></p>
+    <p><u>Existem também texto sublinhados com a Tag &lt;U&gt; porémn essa técnica é não semântica!!!!</u></p>
+    <h2>Texto Sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3 usar a tag &lt;sup&gt;</p>
+    <h2>Texto Subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>0 aqui usar a tag &lt;sub&gt; </p>
+</body>
+</html>

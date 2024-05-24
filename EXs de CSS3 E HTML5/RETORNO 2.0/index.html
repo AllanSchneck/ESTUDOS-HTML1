@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RETORNO</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Danfo&family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Danfo&family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <main>
+        <h1>RETORNO</h1>
+        <ol type="I">
+            <li>HIERARQUIA</li>
+            <li>SEMÂNTICA</li>
+            <li>LISTA</li>
+            <li>IMAGENS</li>
+            <li>ÍCONE</li>
+            <li>ANCORAGEM</li>
+            <li>AUDIO/VÍDEOS/IMAGENS DINÂMICAS</li>
+            <li>CORES</li>
+            <li>DEGRDÊ</li>
+        </ol>
+    </main>
+    <h2>2° falaremos sobre semântica e símbolos , emojis</h2>
+    <p>para semântica usaremos em alguns casos usaremos em alguns casos <em>ítalico</em> ou <i>ítalico</i>
+    e também para usar <strong>negrito</strong> ou seja
+    para &lt;i&gt; &rAarr; <i>ítalico</i>
+    para &lt;strong&gt; &rarr; <strong>negrito</strong></p>
+    para símbolos usaremos o e comercial -> & e com <code>ctrl espaço</code>
+    conseguimos usar todas as possibilidade de símbolos dísponivel no VScode
+    exemplo: &yen; &dollar; &copy; &real; &circlearrowleft; &euro;
+    exemplo agora de alguns emoji usando o & comercial também e o  X &rarr; &#x1F60E; &#x1F383; 
+    <p>Em alguns casos usaremos <ins>para testo inserido</ins>
+    <del>para testo deletado</del>
+    H<sub>2</sub>O ou  até ans<sup>2</sup> também <abbr title="Hyper Text Markup Languege">HTML</abbr>
+    <small>para textos pequenos</small>
+    <cite>para citações </cite></p>
+    <h2>3° LISTAs</h2>
+    <p>lista são bem simples se baseiam em unordered list e ordered list que significa nada mais nada menos que lista organizada e lista desorganiza
+        exemplo de lista organizada
+        <ol>
+            <li>KAKASHI</li>
+            <li>NARUTO</li>
+            <li>SASUKE</li>
+            <li>KABUTO</li>
+            <li>HINATA</li>
+            <li>temari</li>
+        </ol>
+        <p> para organizar a lista de maneira personalizada basta dentro da tag &<code>lt;ol&gt;</code> usar um estilo exemplo</p>
+        <ol start="5" type="I">
+            <li>ITACHI</li>
+            <li>MADARA</li>
+            <li>MINATO</li>
+            <li>SHISUI</li>
+            <li>GAARA</li>
+        </ol>
+        <p>para usar listas desorganizadas usamos a tag &lt;ul&gt; exemplo</p>
+        <ul>
+            <li>caqui</li>
+            <li>manga</li>
+            <li>mamão</li>
+            <li>cenoura</li>
+            <li>tabua</li>
+        </ul>
+        <p>do mesmo modo podemos modificar essa lista diretamente na tag exemplo: </p>
+        <ul type="square">
+            <li>ola</li>
+            <li>mundo</li>
+            <li>tudo </li>
+            <li>bom</li>
+            <li>com vocÊ? </li>
+
+        </ul>
+    </p>
+    <h3>LISTAS DE DEFINIÇÕES</h3>
+    <p>
+    <dl>
+        <dt>curso
+            <dd>matemática   </dd>
+            <dd>semiótica</dd>
+            <dd>java</dd>
+        </dt>
+    </dl>
+    <dl>trabalho
+        <dd>sac</dd>
+        <dd>suporte</dd>
+
+    </dl>
+</p>
+    <h2>4° imagens</h2>
+    <p>imagens em html</p>
+    <img src="img/300x.png" alt="imagem de gato">
+    <img src="img/700.png" alt="gato">
+    <img src="img/1000.png" alt="gato">
+    <p>podemos editar as imagens conforme seu tamanho pelo GIMP ou outro editor de fotos</p>
+    <p>podemos usar imagens por link também exemplo: </p>
+    <img src="https://i.pinimg.com/236x/6f/0c/7d/6f0c7dd236a49fef3d2c7ad9def7f87c.jpg" alt="gato">
+         
+    <h2>5° ícone</h2>
+    <p>Para ícones usamos favicon.io um site que serve para transformar qualquer imagem em icone</p>
+    <p>depois basta usar a tag link na head do arquivo index</p>
+
+    <h2>6° links e ancoragem vídeos tipos de vídeo</h2>
+    <p>ancoragem de sites e hyprlinks funciona da seguite maneira em html</p>
+    <p>basta usar a tag <code>&lt;a&gt;</code>
+    exemplo: <a href="file:///C:/Users/Allan/Desktop/EXs/EXs%20de%20CSS3%20E%20HTML5/EX011/index.html" target="_blank">clique aqui</a></p>
+    <p>alguns links não podemos simplesmente usar por conta de direitos autorais</p>
+    então usamos uma série de atributo para evitar &copy;
+    <p><pre>EXEMPLO: 
+        <a href="https://www.youtube.com/results?search_query=casca+de+bala" target="_blank">CASCA DE BALA</a> EXEMPLO USANDO <code>_blank</code>
+        <a href="https://youtu.be/zYgqJ9tAqzQ?si=itx3Y14qsdYzLt03" target="_parent">UNIÃO FLASCO</a> USANDO <code>_parent</code>
+        <a href="https://youtu.be/BqZA394BERM?si=YiwF7hflrg6rWAg9" target="_self">roxo</a> usando atributo <code>_self</code>
+        <a href="https://youtu.be/D-eAhWmUcpw?si=L8x3r_MRrUG4J79K" target="_top">slingshot</a>usando atributo <code>_top</code></pre></p>
+    <p><pre>
+        EXEMPLO COM LINKS &COPY;
+        <a href="file:///C:/Users/Allan/Desktop/EXs/EXs%20de%20CSS3%20E%20HTML5/EX011/index.html" rel="next">next</a> link como se fosse continuação de uma página ou assunto.
+        <a href="file:///C:/Users/Allan/Desktop/EXs/EXs%20de%20CSS3%20E%20HTML5/EX0016/index.html" rel="prev">prev</a> defini que essa seria a página anterior ou assunto anterior ao da página atual
+        <a href="https://www.youtube.com/@cerebroavacuo" rel="author">author</a> indica o site do author da página
+        <a href="https://www.google.com/maps" rel="external">external</a> simboliza que seria um link externo do site atual
+        <a href="https://www.amazon.com.br/Controle-Dualshock-PlayStation-4-Preto/dp/B07FN1MZBH/ref=asc_df_B07FN1MZBH/?tag=googleshopp00-20&linkCode=df0&hvadid=379729116469&hvpos=&hvnetw=g&hvrand=18433075822826961117&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9102453&hvtargid=pla-809210555467&psc=1" rel="nofollow">nofollow</a> significa um link não endosado como link pago
+    </pre></p>
+    <p><pre>
+        link para download também são possíveis em html 
+        EXEMPLOS
+        <a href="SITE.pptx.pdf" download="SITE.pptx.pdf" type="application/pdf">site</a>
+        <a href="SITE.pptx.zip" download="SITE.pptx.zip" type="application/zip">site.zip</a>
+
+    </pre></p>
+    <h2>7° imagens dinâmicas | alocar vídeos e hospedar eles | reproduzir audios</h2>
+    <h3>AUDIO</h3>
+    <p>Para usarmos audio basta usar a tag <code>&lt;audio&gt;</code>
+    e colocando o audio que queremos reproduzir</p>
+    <audio src="audio/vasco-da-gama.mp3" preload="auto" controls type="application/mp3" download="audio/vasco-da-gama.mp3"></audio>
+    <p><pre>
+        Com alguns atributos como preload |  controls | type |src |type| source| preload
+        podemos deixar o aúdio mais versatil
+        EXEMPLO:
+    </pre>
+    <audio preload="metadata" controls>
+        <source src="audio/vasco-da-gama.mp3" type="audio/mpeg">
+        <source src="audio/vasco-da-gama.ogg" type="audio/ogg">
+        <source src="audio/vasco-da-gama.wav" type="audio/wav">  
+        <p>caso ainda tenha dificuldade em abrir o audio escute clicando <a href="audio/vasco-da-gama.mp3" type="application/mp3" download="audio/vasco-da-gama.mp3" target="_blank">aqui</a></p>
+    </audio>
+    </p>
+    <h3>Vídeos</h3>
+    <p>Para usarmos vídeos basta usar a tag <code>&lt;video&gt;</code></p>
+    <video src="video/5490419-Hd 1920 1080 25Fps.mp4" type="application/mp4" controls></video>
+    <p>assim como nos audios precisamos deixar os vídeos compatíveis com qualquer dispositivo</p>
+    <video poster="img/300x.png" controls width="300">
+        <source src="video/5490419-Hd 1920 1080 25Fps.mp4" type="video/mp4">
+        <source src="video/5490419-Hd-1920-1080-25Fps.ogv" type="video/ogg">
+        <source src="video/webm.webm" type="video/webm">
+        <p>caso seu navegador não tenha compatibilidade clique <a href="video/5490419-Hd 1920 1080 25Fps.mp4" download="video/5490419-Hd 1920 1080 25Fps.mp4" type="video/mp4">aqui</a> para fazer o download</p>
+    </video>
+    <p>por fim para pegar um video de uma hospedagem basta copiar o link do código seja o site de hospedagem privada ou livre exemplo do youtube</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/53N99Nim6WE?si=pToWpeeJzv0R0Ftk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h3>IMAGEM</h3>
+    <p>por fim mas não menos importante temos as imagens dinâmicas que são usadas para diferentes tipos de tela usando a tag <code>&lt;picture&gt;</code> e usando o atributo source também exemplo:</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/300x.png">
+        <source media="(max-width: 1050px)" srcset="img/700.png">
+        <img src="img/1000.png" alt="gato">
+    </picture>
+    
+    <h2>8° cores</h2>
+    <h2>9° degradê</h2>
+    
+</body>
+</html>

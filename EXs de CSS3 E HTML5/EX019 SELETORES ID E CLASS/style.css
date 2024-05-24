@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(243, 255, 232);
+}
+h1{
+    color:rgb(170, 136, 61); 
+}
+h1#principal{
+    text-align: center;
+    background-color: rgb(88, 105, 88);
+    color: white;
+    padding: 3px;
+    border-radius: 2px;
+}
+h2{
+    color:rgb(196, 164, 97); 
+}
+h3{
+    color:rgba(255, 0, 0, 0.61); 
+}
+p{
+    padding: 8px;
+    box-shadow: 3px 3px 12px aqua;
+    border-radius: 7px;
+
+}
+.basico{
+    color: green;
+}
+.intermediario{
+    color: yellow;
+}
+.avançado{
+    color: red;
+}
+.destaque{
+    background-color: black;
+    width: 300px;
+    height: 22px;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{font-family:'Work Sans',Arial, Helvetica, sans-serif;/*sempre que você colocar outra fonte após a fonte principal significa que o site vai tentar ler a próxima fonte caso ele não consiga ler a primeira*/
+font-size: 0.89em;/*por aqui selecionamos o tamanho da fonte do site
+EXISTEM 
+MEDIDADAS ABSOLUTAS 
+cm,mm,px,in(polegada),pt,pc
+MEDIDAS RELATIVAS
+em,ex,rem,vw,vh
+recomedação da W3C USAR PX E EM
+1em equivale a 16px*/
+font-style: normal;/*aqui selecionamos as famílias tipográficas estilo*/
+font-weight: normal;/*weight = peso | width = largura | height = altura*/
+/*pesos literais 
+lighter , normal ,bold,  bolder*/
+text-decoration: overline;}
+h1{font: italic,bolder,0.89em,'work sans',sans-serif;}
+/*para organizar as connfigurações de fonte forma mais simples podemos usar 
+o shorthand font porém voc~e deve seguir uma ordem específica para esse atalho
+font-style->fonte-weight->font-size->font-familiy*/
+h2{font: bolder,0.89em,'work sans',sans-serif}
+/*de prefêrencia sempre copie o código direto em CSS e não em HTML*/
