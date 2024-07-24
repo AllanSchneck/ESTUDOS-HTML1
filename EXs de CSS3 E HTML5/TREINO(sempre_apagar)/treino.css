@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Press+Start+2P&display=swap');
+body{background-color: rgb(139, 139, 139);}
+main{font-weight:400;
+    height: 100px;
+    width: 400px;
+text-justify: auto;
+text-align: center;
+font-family: JetBrains Mono;
+font-size: smaller;
+font-style: normal;
+background-image: linear-gradient(to right, red, blue);
+padding: 1px 1px 1px;
+margin: 100px auto 10px;
+border: 10px;
+border-radius: 6px;
+box-shadow: 10px 10px 10px 10px;
+border-color: black;
+object-position: center ;
+}
+    nav#Links_importantes{
+        text-decoration: none;
+        border-color: transparent;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 100px;
+        margin-right: 200px;
+        margin-left: 400px;
+        
+    }
+nav#Links_importantes > a{
+    color: rgb(3, 3, 3);
+    border-radius: 2px;
+    border-color: transparent;
+    border: 12px;
+    margin-right:110px;
+    border-radius: 250px 250px;
+    padding: 10px 10px 10px transparent;
+    box-shadow: 6px 6px 1px transparent;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    padding: 1px 1px 1px;
+}nav#Links_importantes > a:hover{
+    height: 7px;
+    border-color: transparent;
+    width: 3px;
+    padding: 2px 4px;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 0.623);
+    text-decoration: none;
+    
+}
+.github{
+    
+    padding: 1px 1px 1px;
+    background-color: transparent;
+    text-align: center;
+    
+
+}
+.github:hover{
+
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(110, 109, 241);
+    
+
+}
+.facebook{  
+    
+    border-color: transparent;
+    text-align: center;
+}
+.facebook:hover{
+    background-color:rgb(72, 103, 170) ;
+}
+.instagram{
+    border-color: transparent;
+}
+.instagram:hover{
+    background-image: linear-gradient(220deg, #9314F9, #FE0889, #FFAC09);
+}
+.Linkedin{
+    border-color: transparent;
+}
+.Linkedin:hover{
+   background-color: #0A66C2;
+}
+iframe{
+    margin: 8em ;
+    display: block;
+    inline-size: none;
+    right: 200px;
+    position: relative;
+}
+
+iframe:hover{
+    border: 10px flex black;
+    box-shadow: 7px 7px 30px rgb(255, 255, 255);
+    margin: 8em ;
+    display: block;
+    inline-size: none;
+    right: 200px;
+    position: relative;
+}
+.port{
+    font-family: Spinnaker;
+    background-color: beige;
+    margin-top: 190px;
+    margin-left: 10px;
+    margin-right: 40px;
+    position: relative;
+    right: 390px;
+    padding: 1px 1px 1px;
+box-shadow: 10px 10px 10px black;
+    border-radius: 10px;
+}
+.Historio{
+    height: 15em;
+    width: 30em;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(7, 7, 7));
+    margin-bottom: 460px;
+    margin-top: 130px;
+    right: 240px;
+    position: relative;
+    font-size: 2em;
+    align-items: flex-end;
+    padding: 2px 20px;
+    color: white;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 10px;
+    font-family: JetBrains Mono, Verdana, Geneva,Helvetica,Arial,sans-serif;
+}

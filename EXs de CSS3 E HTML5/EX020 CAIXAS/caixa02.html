@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+        body{
+            font-family: "Spinnaker",sans-serif;
+            background-color: darkgray;
+            margin: 0px;
+        }
+        header{
+            padding: 10px;
+            background-color: white;
+            margin: 10px;
+
+        }
+        nav{
+            background-color: lightseagreen;
+            padding: 10px;
+            /*podemos utilizar devtools para fazer sombra personalizadas*/
+           box-shadow: 2px 2px 4px 6px  rgba(0, 0, 0, 0.315);
+        }
+        nav > a{
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            margin-right: 10px;
+        }
+        nav > a:hover{
+            background-color: blueviolet;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+
+        }
+        article{
+            background-color: lightgrey;
+        }
+        article > aside{
+            background-color: rgb(189, 234, 252);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(105, 84, 44);
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+        MEU site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Notícias e Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et pariatur molestiae porro a quam consequuntur sint! Et nulla nam quibusdam pariatur repudiandae accusamus doloremque nesciunt eaque, illo, ducimus aliquam reiciendis!</p>
+                <aside>
+                    Artigo escrito por José da Silva
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+<p>Desenvolvido pelo Allan Schneck</p>
+    </footer>
+
+<div id="bola"></div>
+
+    <!------ <div>
+        <div id="cabecalho"></div>
+        <h1></h1>
+        <div id="menu">
+
+        </div>
+        <div id="conteudo">
+
+        </div>
+        <div id="rodape">
+
+        </div>
+
+    </div>-->
+</body>
+</html>

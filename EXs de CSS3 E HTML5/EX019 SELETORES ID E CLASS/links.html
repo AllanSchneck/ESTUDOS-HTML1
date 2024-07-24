@@ -4,13 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pseudo elementos</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+
+        .especial::after{
+            content: '♢';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+
+        }
+        .especial::before{
+            content: '♢';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+        
+    </style>
 </head>
 <body>
     <h1>Personalizando Links</h1>
     <ul>
-        <li>Repositório Github</li>
-        <li></li>
-        <li></li>
+        <li><a href="https://github.com/gustavoguanabara" target="_blank">Repositório Github</a></li>
+        <li><a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank" class="especial">Canal do Youtube</a></li>
+        <li><a href="https://www.estudonauta.com/" target="_blank">Site do Curso</a></li>
     </ul>
     
 </body>

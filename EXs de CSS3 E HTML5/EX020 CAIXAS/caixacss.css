@@ -1,0 +1,59 @@
+@charset "UTF-8";
+.caixanaosemanticadiv{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 50em;
+    height: 10em;
+    margin: 4em 4em 4em 4em;
+    padding: 10px 10px 10px 10px;
+    border-width: 10px;
+    border: 10px;
+    border-style: solid;
+    border-color: blueviolet;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+    background-color: azure;
+    text-align: center;
+    outline-width: 30px;
+    outline-style: solid;
+    outline-color: blue;
+    background-color: brown;
+}
+a{color: aliceblue;
+    text-decoration: none;
+
+}
+.caixanaosemanticaspan{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: 700;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px rgb(173, 199, 111);
+    background-color: rgb(20, 112, 112);
+    text-decoration: none;
+    text-decoration-line: none;
+    text-align: center;
+
+}
+.caixanaosemanticaspan:hover{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: 700;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 25px rgb(179, 255, 0);
+    background-color: rgb(136, 136, 136);
+
+}   
+
+ 
