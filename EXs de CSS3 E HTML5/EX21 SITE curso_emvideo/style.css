@@ -1,0 +1,154 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'idroid' ;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+@font-face {
+    font-family:'droid';
+    src: url(pacote-projeto-d010/__MACOSX/fontes/_idroid.otf);
+}
+body{
+    background-color: #84E1AD;
+    margin: auto;
+    display: block;
+    
+}
+ul{
+    list-style-type:none    ;
+}
+a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: #578d70;
+}
+a:hover{
+    color: #3d7556;
+}
+header > nav{   
+    position: fixed; 
+    font-family: 'droid','Courier New', Courier, monospace;
+    color: wheat;
+    background-image: linear-gradient(360deg,  #144B2D, #3CD782);
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+    margin: auto;    
+}
+header{ 
+    padding: 1px;  
+    font-family: 'droid','Courier New', Courier, monospace;
+    color: wheat;
+    background-image: linear-gradient(360deg,  #144B2D, #3CD782);
+    width: auto;
+    height: 40vh;
+    align-items: center;
+    margin: auto;    
+}
+.titulo_principal > h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 120px 10px 120px;
+    margin: 30px;
+    align-items: center;
+    text-align: center;
+ 
+}
+.titulo_principal > p {
+    color: wheat;
+    font-family: Helvetica, sans-serif   ;
+    padding: 20px 320px 10px 300px;
+    margin: 30px;
+    align-items: center;
+    text-align: center;
+ 
+}
+.menu > a:visited{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.menu > a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1em;
+    display: inline;
+    justify-content: space-around;
+    text-decoration: none;
+    
+}
+.menu > a:hover{
+    text-decoration: none;
+}
+main{
+    padding: 70px 70px 70px 70px;
+    margin: auto;
+    align-items: center;
+    background-color: white;
+    width: 60%;
+    height: auto;
+}
+main > h1{
+    text-indent: 12px;
+    background-image: linear-gradient(180deg,#CCEDDC, #D7F1E3);
+    color: #236340;
+    font-family: idroid;
+    position: relative;
+    width: auto;
+    bottom: 1em;
+    height: 32px;
+}
+main > h2{
+    text-indent: 12px;
+    background: #3CD782;
+    pointer-events: none;
+    color: #236340;
+    font-family: idroid;
+    display: flex;
+}
+p{
+    text-indent: 12px;
+    color: rgb(49, 49, 49);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    text-align: center;}
+footer > p{
+        color: wheat;
+        background-color:   #144B2D;
+    }
+footer{
+    margin: auto;
+    padding: 1px;
+}
+.image{
+    display: flex;
+    margin: auto;
+    height: 200px;
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+}
+.youtube{
+    margin: auto;
+    align-items: center;
+    max-width: 70%;
+    width: 100%;
+    padding: 120px;
+    background-color: #144B2D;
+}
+.aprender{ 
+    color: wheat;
+    padding: 20px;
+    margin: 20px auto auto auto; 
+    font-family: "droid",Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    border-radius:20px 20px 0px 0px;
+    background-color:#2FA866;
+}
+.secao_pe{
+    border-radius:0px 0px 20px 20px;
+    padding: 30px;
+    margin:  auto;
+    align-items: center;
+    width: auto;
+    height: auto;
+    background-color: #C5EBD6;
+
+}
