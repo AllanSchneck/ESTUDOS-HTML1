@@ -10,29 +10,34 @@
 body{
     background-color: #84E1AD;
     margin: auto;
-    display: block;
     
 }
 ul{
     list-style-type:none    ;
 }
 a{
-    font-weight: bolder;
+    font-weight: bold;
     text-decoration: none;
-    color: #578d70;
-}
-a:hover{
-    color: #3d7556;
+    color: #58876C;
 }
 header > nav{   
+    background-color: #144B2D;
     position: fixed; 
     font-family: 'droid','Courier New', Courier, monospace;
     color: wheat;
-    background-image: linear-gradient(360deg,  #144B2D, #3CD782);
     width: auto;
-    height: auto;
+    overflow: hidden;
     justify-content: space-between;
     margin: auto;    
+}
+nav > a{
+    padding: 7px;
+    width: auto;
+    align-items: center;
+    margin: auto;
+}
+nav > a:hover{
+    background-color: #2FA866;
 }
 header{ 
     padding: 1px;  
@@ -46,7 +51,7 @@ header{
 }
 .titulo_principal > h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px 120px 10px 120px;
+    padding: 5px 40px 5px 40px;
     margin: 30px;
     align-items: center;
     text-align: center;
@@ -55,7 +60,6 @@ header{
 .titulo_principal > p {
     color: wheat;
     font-family: Helvetica, sans-serif   ;
-    padding: 20px 320px 10px 300px;
     margin: 30px;
     align-items: center;
     text-align: center;
@@ -67,6 +71,7 @@ header{
 }
 .menu > a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
     margin: 1em;
     display: inline;
     justify-content: space-around;
@@ -74,33 +79,40 @@ header{
     
 }
 .menu > a:hover{
+    color: rgb(24, 24, 24);
+    background: #2A9F5B;
     text-decoration: none;
 }
 main{
     padding: 70px 70px 70px 70px;
-    margin: auto;
+    margin: auto auto 30px auto;
     align-items: center;
     background-color: white;
-    width: 60%;
+    width: 70%;
     height: auto;
+    border-radius: 10px;
 }
 main > h1{
-    text-indent: 12px;
+    
+    overflow:hidden;
+    height: 30px;
+    margin: auto;
+    text-indent: 6px;
     background-image: linear-gradient(180deg,#CCEDDC, #D7F1E3);
     color: #236340;
     font-family: idroid;
     position: relative;
     width: auto;
     bottom: 1em;
-    height: 32px;
+
 }
 main > h2{
+    max-width: 800px;
+    background-image: linear-gradient(180deg,#CCEDDC, #D7F1E3);
     text-indent: 12px;
-    background: #3CD782;
     pointer-events: none;
     color: #236340;
     font-family: idroid;
-    display: flex;
 }
 p{
     text-indent: 12px;
@@ -112,35 +124,35 @@ p{
 footer > p{
         color: wheat;
         background-color:   #144B2D;
+        margin: auto;
     }
 footer{
-    margin: auto;
-    padding: 1px;
-}
+    width: 100%;
+    height: auto;
+    margin: auto;}
 .image{
     display: flex;
     margin: auto;
-    height: 200px;
+    height: 25em;
     width: 100%;
-    max-width: 400px;
+
     overflow: hidden;
 }
 .youtube{
     margin: auto;
     align-items: center;
-    max-width: 70%;
-    width: 100%;
-    padding: 120px;
+    width: auto;
+    padding: 20px;
     background-color: #144B2D;
 }
 .aprender{ 
+    background-image: none;
+    background-color:#2FA866;
     color: wheat;
     padding: 20px;
     margin: 20px auto auto auto; 
     font-family: "droid",Verdana, Geneva, Tahoma, sans-serif;
-    color: aliceblue;
     border-radius:20px 20px 0px 0px;
-    background-color:#2FA866;
 }
 .secao_pe{
     border-radius:0px 0px 20px 20px;
